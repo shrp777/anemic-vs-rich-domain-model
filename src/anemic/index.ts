@@ -16,7 +16,7 @@ order.lines[0].quantity = -100; // accès invalide -> la valeur order.lines[0] p
 //Erreur affichée dans l'onglet Problèmes : L'objet a peut-être la valeur 'undefined'.
 
 /*Problèmes typiques
-- On peut facilement contourner les règles : a.balance = 10_000_000 ou a.balance -= 9999 sans contrôle.
--Les invariants sont dispersés (plusieurs services, contrôleurs, jobs…).
+- On peut facilement contourner les règles : order.discountRate = 0.9 sans contrôle.
+- Les invariants sont dispersés (plusieurs services, contrôleurs, jobs…).
 - L’objet “domaine” ne protège pas son état.
 */

@@ -2,7 +2,7 @@
 
 ## Problèmes typiques d'un Anemic Domain Model
 
-- On peut facilement contourner les règles : a.balance = 10_000_000 ou a.balance -= 9999 sans contrôle.
+- On peut facilement contourner les règles : order.discountRate = 0.9 sans contrôle.
 - Les invariants sont dispersés (plusieurs services, contrôleurs, jobs…).
 - L’objet “domaine” ne protège pas son état.
 
