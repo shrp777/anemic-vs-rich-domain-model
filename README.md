@@ -17,6 +17,10 @@
 - Anémique : les règles sont autour des données.
 - Riche : les règles sont dans l’objet qui porte l’état.
 
+![alt Anemic vs Rich Domain Model](assets/anemic_vs_rich.jpg)
+
+Crédit image : <https://thevaluable.dev/anemic-domain-model/>
+
 --
 
 !["Logotype Shrp"](https://sherpa.one/images/sherpa-logotype.png)
